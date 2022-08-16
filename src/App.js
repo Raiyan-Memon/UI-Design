@@ -43,7 +43,7 @@ function App() {
         </Zoom>
         <div className='scroll'>
           <ul>
-            <li>Scroll</li>
+            <li>Scroll Up</li>
             <li><ion-icon name="chevron-down-outline"></ion-icon></li>
           </ul>
         </div>
