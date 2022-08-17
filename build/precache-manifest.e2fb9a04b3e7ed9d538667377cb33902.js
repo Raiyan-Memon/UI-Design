@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "05cae0337535de9b05cc",
+    "revision": "346851691e25fe98cf80",
     "url": "/static/css/main.2a7300ce.chunk.css"
   },
   {
-    "revision": "05cae0337535de9b05cc",
-    "url": "/static/js/main.96d9afb3.chunk.js"
+    "revision": "346851691e25fe98cf80",
+    "url": "/static/js/main.86b7350c.chunk.js"
   },
   {
     "revision": "89835fe290a45d3e62a0",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/static/media/Raiyan.84419b59.png"
   },
   {
-    "revision": "79365b12bfba09c81d967844d23dfbf6",
+    "revision": "7a6203a53a3e0f57b057c9b094071bab",
     "url": "/index.html"
   }
 ];
