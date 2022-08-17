@@ -35,7 +35,7 @@ const home = () => {
                             <li className="social-logo"><ion-icon name="logo-linkedin"></ion-icon></li>
                             <li className="social-logo"><ion-icon name="logo-linkedin"></ion-icon></li>
                             <li className="social-logo"><ion-icon name="logo-linkedin"></ion-icon></li>
-                        </ul>
+                        </ul>~
                     </div>
                 </div>
 
