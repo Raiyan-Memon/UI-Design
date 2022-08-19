@@ -57,6 +57,21 @@
     animation: mymove 1s;
     animation-iteration-count: infinite;
   }
+
+  .resume .myresume{
+    all: unset;
+    border: 1px solid white;
+    padding: 5px;
+  }
+  .resume .myresume:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .resume .social-logo{
+    margin-bottom: -7px;
+  }
   
   @keyframes mymove {
     from {bottom: 0px;}
@@ -72,6 +87,11 @@
   .scroll ul{
     padding: 0px;
   }
+
+  ion-icon {
+    pointer-events: none;
+
+   }
   
   @media all and (max-width: 900px) {
     .home-page{
