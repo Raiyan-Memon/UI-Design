@@ -19,7 +19,7 @@ const home = () => {
 
         <div className='home-page'>
             <Zoom top cascade>
-                <img src={myImage} className="myimage" alt="logo" />
+                {/* <img src={myImage} className="myimage" alt="logo" /> */}
                 <div className='mydetails'>
                     <h2>Hello There, </h2>
                     <h2>I'm <span className='myname'>Raiyan Memon, </span></h2>
@@ -44,6 +44,11 @@ const home = () => {
                                 .start()
                         }}
                     /></span></p>
+                </div>
+
+                <img src={myImage} className="myimage" alt="logo" />
+
+                <div className='mydetails'>
                     <div className='logo'>
                         <ul>
 
