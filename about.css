@@ -27,6 +27,19 @@
     margin-bottom: 30px;
 }
 
-.age, .phone, .email, .about-name, .about-me, .contact-me{
+.age, .phone, .email, .about-name, .about-me    , .contact-me{
     color: rgb(0 250 255);
+}
+
+@media all and (max-width: 930px) {
+    .about-content{
+        flex-direction: column;
+    }
+    .about-image{
+        
+    }
+    .about-intro{
+        flex-direction: column;
+        width: 90vw;
+    }
 }
