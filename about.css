@@ -1,0 +1,32 @@
+.about-head{
+    margin-top: 100px;
+    width: 100vw;
+    text-align: center;
+}
+
+.about-content{
+    display: flex;
+    margin: 0 auto;
+    width: 80vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-image img{
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.about-intro{
+    width: 33vw;
+}
+
+.nameRole{
+    line-height: 10px;
+    margin-bottom: 30px;
+}
+
+.age, .phone, .email, .about-name, .about-me, .contact-me{
+    color: rgb(0 250 255);
+}

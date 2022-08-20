@@ -18,7 +18,11 @@ body {
       monospace;
   }
 
-.home-page{
+  a{
+    all: unset;
+  }
+  
+  .home-page{
     margin: auto;
     width: 70vw;
     height: 100vh;
@@ -48,16 +52,15 @@ body {
 
   .social-logo:hover{
     color: rgb(106, 106, 251);
-    cursor: pointer;
   }
-
+  
   .logo ul{
-    margin: 30px 0px;
     padding: 0px;
     width: fit-content;
   }
-  
+
   .logo ul li{
+    margin-top: 0px;
     list-style: none;
     margin-left:0px ;
     margin-right: 10px;
@@ -79,21 +82,49 @@ body {
     animation-iteration-count: infinite;
   }
 
-.resume .myresume{
-  all: unset;
-  border: 1px solid white;
-  padding: 5px;
-}
-.resume .myresume:hover{
-  color: black;
-  background-color: white;
-  cursor: pointer;
-  transition: 0.5s;
-}
-.resume .social-logo{
-  margin-bottom: -7px;
-}
+  .resume{
+    margin-top: 30px;
+  }
 
+  .resume .myresume{
+    all: unset;
+    border: 1px solid white;
+    padding: 5px;
+  }
+  .resume .myresume:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .resume a:hover{
+    cursor: pointer;
+  }
+  .resume .social-logo{
+    margin-bottom: -7px;
+  }
+  
+  @keyframes mymove {
+    from {bottom: 0px;}
+    to {bottom: 8px;}
+    from {bottom: 0px;}
+  }
+
+  .scroll ul li{
+    list-style: none;
+    text-align: center;
+  }
+
+  .scroll ul{
+    padding: 0px;
+  }
+
+  ion-icon {
+    pointer-events: none;
+
+   }
+  
   @media all and (max-width: 900px) {
     .home-page{
       display: flex;
@@ -102,13 +133,14 @@ body {
       height: 100%;
       width: 100%;
       align-items: center;
-      margin: 50% auto;
+      margin: 5vh auto;
     }
     .myimage{
       width: 150px;
+      margin-top: 10vh;
     }
     .mydetails{
       margin-top: 10vh;
     }
-  
+
   }

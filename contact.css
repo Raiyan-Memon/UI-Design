@@ -1,0 +1,113 @@
+.contact-header{
+    margin-top: 80px;
+    width: 100vw;
+    text-align: center;
+}
+
+.contact-me{
+    color: rgb(0 250 255);  
+}
+.contact-form{
+    width: 70vw;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid rgb(48 0 92);;
+    padding: 20px;
+    background-color: rgb(48 0 92);
+    border-radius: 20px;
+}
+
+.input-style[type=text]{
+    margin-top: 10px;
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('user-solid.svg');
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.input-style[type=email]{
+    margin-top: 10px;   
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('at-solid.svg');
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.input-style[type=number]{
+    margin-top: 10px;   
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('phone-solid.svg');
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.input-style{
+    margin-top: 10px;   
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('message-solid.svg');
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.input-style[type=submit]{
+    margin-top: 10px;  
+    text-align: center;
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('phone-solid.svg');
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.input-style[type=submit]:hover{
+    cursor: pointer;
+    margin-top: 10px;  
+    text-align: center;
+    width: 100px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    /* background-color: rgb(27, 1, 56); */
+    color: rgb(27, 1, 56);;
+    background-image: url('call-outline.svg');
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
