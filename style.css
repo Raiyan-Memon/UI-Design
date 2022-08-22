@@ -6,6 +6,7 @@ body {
     width: 100vw;
     background-color: rgb(27, 1, 56);
     color: white;
+    overflow: hidden auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
@@ -21,7 +22,6 @@ body {
   a{
     all: unset;
   }
-  
   .home-page{
     margin: auto;
     width: 70vw;
@@ -75,7 +75,7 @@ body {
   }
   
   .scroll{
-    position: absolute;
+    position: absolute; 
     padding: 0px;
     bottom: 0%; 
     animation: mymove 1s;
@@ -126,21 +126,34 @@ body {
    }
   
   @media all and (max-width: 900px) {
+    .index{
+      flex-direction: column;
+    }
     .home-page{
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      height: 100%;
+      justify-content:space-between;
+      height: 93vh;
       width: 100%;
       align-items: center;
-      margin: 5vh auto;
+      /* margin: 0vh 0px; */
     }
+
+    .scroll{
+      /* position: absolute;  */
+      position: unset;
+      padding: 0px;
+      /* bottom: 0%;  */
+      animation: mymove 1s;
+      animation-iteration-count: infinite;
+    }
+
     .myimage{
       width: 150px;
-      margin-top: 10vh;
+      margin: 0vh 0px;
     }
     .mydetails{
-      margin-top: 10vh;
+      /* margin-top: 4vh; */
     }
 
   }

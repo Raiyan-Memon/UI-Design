@@ -1,6 +1,7 @@
 .navbar{
     display: flex;
-    position: absolute;
+    position: sticky;
+    z-index: 100;
     top:0%;
     justify-content: space-between;
     width: 100vw;
