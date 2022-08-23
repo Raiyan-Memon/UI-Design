@@ -32,14 +32,22 @@
     font-size: 25px;
 }
 
+.list .bar-icon{
+    display: none;
+}
 
     @media all and (max-width: 930px) {
         .top-logo{
          margin: 0 30px;
          font-size: 15px;
         }
-        .list{
-         display: none;
+
+        .list .bar-icon{
+            display: block;
         }
+        .list{
+            display: none;
+           }
+        
      }   
 

@@ -1,5 +1,5 @@
 .about{
-    height: 85vh;
+    height: 100vh;
 }
 
 .about-page{
@@ -42,27 +42,21 @@
     .about{
         height: 90vh;
         margin: auto;
-        display: flex;
+        display:block;
         flex-direction: column;
         justify-content:space-evenly;
-        /* align-items: flex-end; */
     }
     .about-content{
         flex-direction: column;
         justify-content:space-between;
-        /* align-items: center; */
-        /* justify-content: center; */
     }
 
     .about-detail{
-        /* color: red; */
         height: 4vh;
     }
 
     .about-page{
-        /* height: 120vh; */
         position: absolute;
-        /* top: 80vh; */
     }
 
     .about-head{

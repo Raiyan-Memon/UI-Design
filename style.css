@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -45,7 +44,6 @@ body {
   
   .social-logo{
     margin: 0 10px;
-    /* color: rgb(83, 20, 153); */
     color: white;
     font-size: 25px;
   }
@@ -136,14 +134,11 @@ body {
       height: 93vh;
       width: 100%;
       align-items: center;
-      /* margin: 0vh 0px; */
     }
 
     .scroll{
-      /* position: absolute;  */
       position: unset;
       padding: 0px;
-      /* bottom: 0%;  */
       animation: mymove 1s;
       animation-iteration-count: infinite;
     }
@@ -151,9 +146,6 @@ body {
     .myimage{
       width: 150px;
       margin: 0vh 0px;
-    }
-    .mydetails{
-      /* margin-top: 4vh; */
     }
 
   }
